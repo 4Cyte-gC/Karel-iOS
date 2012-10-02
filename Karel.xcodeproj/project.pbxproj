@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921168F8160D2A6A00275B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921168F7160D2A6A00275B26 /* UIKit.framework */; };
+		921168FA160D2A6A00275B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921168F9160D2A6A00275B26 /* Foundation.framework */; };
+		921168FC160D2A6A00275B26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921168FB160D2A6A00275B26 /* CoreGraphics.framework */; };
+		92116902160D2A6A00275B26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92116900160D2A6A00275B26 /* InfoPlist.strings */; };
+		92116904160D2A6A00275B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92116903160D2A6A00275B26 /* main.m */; };
+		92116908160D2A6A00275B26 /* KAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92116907160D2A6A00275B26 /* KAppDelegate.m */; };
+		9211690B160D2A6A00275B26 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92116909160D2A6A00275B26 /* MainStoryboard.storyboard */; };
+		92116915160D2AB500275B26 /* karel.png in Resources */ = {isa = PBXBuildFile; fileRef = 92116914160D2AB500275B26 /* karel.png */; };
+		92116917160D2AF200275B26 /* beeper.png in Resources */ = {isa = PBXBuildFile; fileRef = 92116916160D2AF200275B26 /* beeper.png */; };
+		92116922160D2FBC00275B26 /* KarelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92116921160D2FBC00275B26 /* KarelVC.m */; };
+		92D59647161A78C10075C5FF /* SuperKarelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D59646161A78C10075C5FF /* SuperKarelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		921168F3160D2A6A00275B26 /* Karel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		921168F7160D2A6A00275B26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		921168F9160D2A6A00275B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		921168FB160D2A6A00275B26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		921168FF160D2A6A00275B26 /* Karel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Karel-Info.plist"; sourceTree = "<group>"; };
+		92116901160D2A6A00275B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92116903160D2A6A00275B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92116905160D2A6A00275B26 /* Karel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Karel-Prefix.pch"; sourceTree = "<group>"; };
+		92116906160D2A6A00275B26 /* KAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAppDelegate.h; sourceTree = "<group>"; };
+		92116907160D2A6A00275B26 /* KAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAppDelegate.m; sourceTree = "<group>"; };
+		9211690A160D2A6A00275B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92116914160D2AB500275B26 /* karel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = karel.png; sourceTree = "<group>"; };
+		92116916160D2AF200275B26 /* beeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beeper.png; sourceTree = "<group>"; };
+		92116920160D2FBC00275B26 /* KarelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KarelVC.h; sourceTree = "<group>"; };
+		92116921160D2FBC00275B26 /* KarelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KarelVC.m; sourceTree = "<group>"; };
+		92D59645161A78C10075C5FF /* SuperKarelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperKarelViewController.h; sourceTree = "<group>"; };
+		92D59646161A78C10075C5FF /* SuperKarelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperKarelViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921168F0160D2A6A00275B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921168F8160D2A6A00275B26 /* UIKit.framework in Frameworks */,
+				921168FA160D2A6A00275B26 /* Foundation.framework in Frameworks */,
+				921168FC160D2A6A00275B26 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921168E8160D2A6900275B26 = {
+			isa = PBXGroup;
+			children = (
+				921168FD160D2A6A00275B26 /* Karel */,
+				921168F6160D2A6A00275B26 /* Frameworks */,
+				921168F4160D2A6A00275B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		921168F4160D2A6A00275B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921168F3160D2A6A00275B26 /* Karel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921168F6160D2A6A00275B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921168F7160D2A6A00275B26 /* UIKit.framework */,
+				921168F9160D2A6A00275B26 /* Foundation.framework */,
+				921168FB160D2A6A00275B26 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921168FD160D2A6A00275B26 /* Karel */ = {
+			isa = PBXGroup;
+			children = (
+				92116909160D2A6A00275B26 /* MainStoryboard.storyboard */,
+				92D59645161A78C10075C5FF /* SuperKarelViewController.h */,
+				92D59646161A78C10075C5FF /* SuperKarelViewController.m */,
+				92116920160D2FBC00275B26 /* KarelVC.h */,
+				921168FE160D2A6A00275B26 /* Supporting Files */,
+			);
+			path = Karel;
+			sourceTree = "<group>";
+		};
+		921168FE160D2A6A00275B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92116921160D2FBC00275B26 /* KarelVC.m */,
+				92116906160D2A6A00275B26 /* KAppDelegate.h */,
+				92116907160D2A6A00275B26 /* KAppDelegate.m */,
+				92116914160D2AB500275B26 /* karel.png */,
+				92116916160D2AF200275B26 /* beeper.png */,
+				921168FF160D2A6A00275B26 /* Karel-Info.plist */,
+				92116900160D2A6A00275B26 /* InfoPlist.strings */,
+				92116903160D2A6A00275B26 /* main.m */,
+				92116905160D2A6A00275B26 /* Karel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921168F2160D2A6A00275B26 /* Karel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92116911160D2A6A00275B26 /* Build configuration list for PBXNativeTarget "Karel" */;
+			buildPhases = (
+				921168EF160D2A6A00275B26 /* Sources */,
+				921168F0160D2A6A00275B26 /* Frameworks */,
+				921168F1160D2A6A00275B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karel;
+			productName = Karel;
+			productReference = 921168F3160D2A6A00275B26 /* Karel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921168EA160D2A6900275B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = K;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Giving Turtle";
+			};
+			buildConfigurationList = 921168ED160D2A6900275B26 /* Build configuration list for PBXProject "Karel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 921168E8160D2A6900275B26;
+			productRefGroup = 921168F4160D2A6A00275B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921168F2160D2A6A00275B26 /* Karel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921168F1160D2A6A00275B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116902160D2A6A00275B26 /* InfoPlist.strings in Resources */,
+				9211690B160D2A6A00275B26 /* MainStoryboard.storyboard in Resources */,
+				92116915160D2AB500275B26 /* karel.png in Resources */,
+				92116917160D2AF200275B26 /* beeper.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921168EF160D2A6A00275B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116904160D2A6A00275B26 /* main.m in Sources */,
+				92116908160D2A6A00275B26 /* KAppDelegate.m in Sources */,
+				92116922160D2FBC00275B26 /* KarelVC.m in Sources */,
+				92D59647161A78C10075C5FF /* SuperKarelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92116900160D2A6A00275B26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92116901160D2A6A00275B26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92116909160D2A6A00275B26 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9211690A160D2A6A00275B26 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9211690F160D2A6A00275B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92116910160D2A6A00275B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92116912160D2A6A00275B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karel/Karel-Prefix.pch";
+				INFOPLIST_FILE = "Karel/Karel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92116913160D2A6A00275B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Karel/Karel-Prefix.pch";
+				INFOPLIST_FILE = "Karel/Karel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921168ED160D2A6900275B26 /* Build configuration list for PBXProject "Karel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9211690F160D2A6A00275B26 /* Debug */,
+				92116910160D2A6A00275B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92116911160D2A6A00275B26 /* Build configuration list for PBXNativeTarget "Karel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92116912160D2A6A00275B26 /* Debug */,
+				92116913160D2A6A00275B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921168EA160D2A6900275B26 /* Project object */;
+}
