@@ -13,26 +13,17 @@
     /*
      TODO
      use a variation of the commands in KarelVC.h to do something interesting
-     write your code below */
+     write your code below.  Try making a T
+     
+     For instance:
+     [self move];
+     [self putBeeper];
+     [self move];
+     
+     */
     
     
     
 }
-
-- (void) moveThreeSpacesAndComeBack {
-    
-    // Your code here
-    
-}
-
-- (void) moveThreeSpacesAndComeBack: (BOOL)alsoPlaceBeeper {
-    
-    // Your code here
-    
-}
-
-// write your own method to moveThreeSpaces
-
-// write your own method to turnAround
 
 @end

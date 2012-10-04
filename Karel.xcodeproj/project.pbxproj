@@ -84,10 +84,9 @@
 		921168FD160D2A6A00275B26 /* Karel */ = {
 			isa = PBXGroup;
 			children = (
-				92116909160D2A6A00275B26 /* MainStoryboard.storyboard */,
-				92D59645161A78C10075C5FF /* SuperKarelViewController.h */,
 				92D59646161A78C10075C5FF /* SuperKarelViewController.m */,
-				92116920160D2FBC00275B26 /* KarelVC.h */,
+				92116914160D2AB500275B26 /* karel.png */,
+				92116909160D2A6A00275B26 /* MainStoryboard.storyboard */,
 				921168FE160D2A6A00275B26 /* Supporting Files */,
 			);
 			path = Karel;
@@ -96,10 +95,11 @@
 		921168FE160D2A6A00275B26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92116920160D2FBC00275B26 /* KarelVC.h */,
+				92D59645161A78C10075C5FF /* SuperKarelViewController.h */,
 				92116921160D2FBC00275B26 /* KarelVC.m */,
 				92116906160D2A6A00275B26 /* KAppDelegate.h */,
 				92116907160D2A6A00275B26 /* KAppDelegate.m */,
-				92116914160D2AB500275B26 /* karel.png */,
 				92116916160D2AF200275B26 /* beeper.png */,
 				921168FF160D2A6A00275B26 /* Karel-Info.plist */,
 				92116900160D2A6A00275B26 /* InfoPlist.strings */,
