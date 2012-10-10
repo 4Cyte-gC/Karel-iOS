@@ -100,6 +100,10 @@
         <class className="KarelVC" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/KarelVC.h"/>
             <relationships>
+                <relationship kind="action" name="moveButton:"/>
+                <relationship kind="action" name="pickBeeperButton:"/>
+                <relationship kind="action" name="putBeeperButton:"/>
+                <relationship kind="action" name="turnRightButton:"/>
                 <relationship kind="outlet" name="karelView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="worldView" candidateClass="UIView"/>
             </relationships>
