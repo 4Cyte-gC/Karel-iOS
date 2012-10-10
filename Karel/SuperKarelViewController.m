@@ -70,6 +70,7 @@ Fix me fix me!
     [self move];
     
     // It's important to get the SYNTAX of these commands correct.
+    // SYNTAX is the formula for how we write commands that the computer can understand.
     // 1. Start with a [.  This an OPENING BRACKET.
     // 2. Write the name of the thing that you want to do the command.
     //    self refers to the current SuperKarelViewController.

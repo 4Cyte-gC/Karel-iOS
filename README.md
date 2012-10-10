@@ -1,6 +1,16 @@
 Karel-iOS
 =========
 
+In Class 2, use the zip button above to download the code for this week.
+
+Again, open SuperKarelViewController.m
+Follow the instructions in the file.
+
+
+=========
+
+The following instructions were from class 1.
+
 The first thing to do is click the play button that says "Run" in the upper left hand corner.  You should see the iPhone simulator pop up and an app should load with a robot in the top-left named Karel and four buttons in the bottom right, each with a line of code.  Click the buttons to see what each line of code does.  Try to draw out the letter "T" with beepers.
 
 When you're familiar with what each line of code does, go back to XCode.  The left panel of XCode is where we get to our files.  Click the down arrow to expand the Karel project, and then click the down arrow to open the Karel folder underneath.  Click "SuperKarelViewController.m" to open the file.
