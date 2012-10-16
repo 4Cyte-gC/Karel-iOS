@@ -14,7 +14,7 @@
 
 // Views
 @property (weak, nonatomic) IBOutlet UIImageView *karelView;
-@property (weak, nonatomic) IBOutlet UIView *worldView;
+@property (strong, nonatomic) NSMutableArray *beeperViews;
 
 // the following constitutes KarelWorld, the model
 @property (strong, nonatomic) NSMutableSet* beepers;
@@ -40,17 +40,20 @@
      
 - (void) draw {
     // pause
-    usleep(500000);
+    usleep(400000);
     
     // 0. remove all beepers
-    for (UIView *view in self.worldView.subviews) {
+    for (UIView *view in self.beeperViews) {
         [view removeFromSuperview];
     }
+    
+    [self.beeperViews removeAllObjects];
     
     // 1. put beepers at their places    
     for(NSArray *arr in self.beepers) {
         UIImageView *beeper = [[UIImageView alloc] initWithImage: [UIImage imageNamed:@"beeper.png"]];
-        [self.worldView addSubview:beeper];
+        [self.beeperViews addObject:beeper];
+        [self.view addSubview:beeper];
         int x = [(NSNumber *)[arr objectAtIndex:0] intValue];
         int y = [(NSNumber *)[arr objectAtIndex:1] intValue];
         
@@ -65,6 +68,7 @@
     self.karelView.transform = CGAffineTransformMakeRotation(transform);
     self.karelView.hidden = FALSE;
     self.karelView.center = CGPointMake(self.x * UNIT_SIZE, self.y * UNIT_SIZE);
+    [self.view bringSubviewToFront:self.karelView];
     
     // 3. force a redraw as per http://stackoverflow.com/questions/5408234/how-to-force-a-view-to-render-itself
     [self.view setNeedsDisplay];
@@ -144,13 +148,19 @@
 #pragma mark model code
 
 @synthesize karelView = _karelView;
-@synthesize worldView=_worldView;
+@synthesize beeperViews = _beeperViews;
 @synthesize beepers=_beepers;
 @synthesize x=_x;
 @synthesize y=_y;
 @synthesize xDir=_xDir;
 @synthesize yDir=_yDir;
 
+- (NSMutableArray*) beeperViews {
+    if(!_beeperViews) {
+        _beeperViews = [NSMutableArray array];
+    }
+    return _beeperViews;
+}
 
 - (NSMutableSet*) beepers {
     if(!_beepers) {

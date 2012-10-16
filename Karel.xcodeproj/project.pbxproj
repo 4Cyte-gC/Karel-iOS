@@ -88,6 +88,7 @@
 			children = (
 				92D59646161A78C10075C5FF /* SuperKarelViewController.m */,
 				92116909160D2A6A00275B26 /* MainStoryboard.storyboard */,
+				92116914160D2AB500275B26 /* karel.png */,
 				921168FE160D2A6A00275B26 /* Supporting Files */,
 			);
 			path = Karel;
@@ -97,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				92182412162DD970004CD889 /* walle.png */,
-				92116914160D2AB500275B26 /* karel.png */,
 				92116920160D2FBC00275B26 /* KarelVC.h */,
 				92D59645161A78C10075C5FF /* SuperKarelViewController.h */,
 				92116921160D2FBC00275B26 /* KarelVC.m */,

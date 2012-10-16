@@ -10,7 +10,8 @@
 
 - (void) run {
     // remember, anything in here will be run automatically on startup
-    [self move];
+    // [self putBeeper];
+    // [self move];
 }
 
 @end
