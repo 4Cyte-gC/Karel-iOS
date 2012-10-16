@@ -10,8 +10,11 @@
 
 - (void) run {
     // remember, anything in here will be run automatically on startup
+    // the methods that are imported for your use are:
     // [self putBeeper];
     // [self move];
+    // [self turnRight];
+    // [self pickBeeper];
 }
 
 @end

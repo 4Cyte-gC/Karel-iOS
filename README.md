@@ -1,6 +1,11 @@
 Karel-iOS
 =========
 
+For week 3, open the Week 3 Assignment.pdf file and follow the instructions.  Below are instructions from previous classes.
+
+
+=========
+
 In Class 2, use the zip button above to download the code for this week.
 
 Again, open SuperKarelViewController.m
